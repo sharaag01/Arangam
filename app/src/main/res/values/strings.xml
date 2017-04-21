@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">Arangam</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_schedule">SCHEDULE</string>
+    <string name="action_search">Search</string>
+    <string name="facebook_app_id">735949336558572</string>
+    <string name="fabric_app_id">nrLFDdOQ8Mh23dXElyF1ve5ts</string>
+    <string name="fabric_secrete_key">l54GOJeqTQFn3CE9jyRuQ2g62Xi9cZ268YCxQpHbz9mR5GlrM9</string>
+    <string name="fb_login_protocol_scheme">fb735949336558572</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="vertical_ellipsis">&#8942;</string>
+    <string name="title_ticket_booking_activity">Book Ticket</string>
+
+
+    <string name="UserProvidedInformation">The Arangam app is for free distribution and doesn’t demand user registration or signing with third party entities like Facebook, Twitter, LinkedIn etc.
+        \n\nThe Arangam app doesn’t access users address book or contact information.\n\nWe may also use the information you provided us to contact your from time to time to provide you with important information, required notices and marketing promotions.
+    </string>
+
+    <string name="AutomaticallyCollectedInformation">In addition, the Arangam app may collect certain information automatically, including, but not limited to, the type of mobile device you use, your mobile devices unique device ID, the IP address of your mobile device, your mobile operating system, the type of mobile Internet browsers you use, and information about the way you use the Application.
+    </string>
+
+    <string name="device">When you use the Arangam app, we may use GPS technology (or other similar technology) to determine your current location in order to determine the city you are located within and display information relevant to your location.\n\nIf you do not want us to use your location for the purposes set forth above, you should turn off the location services for the mobile application located in your account settings or in your mobile phone settings and/or within the mobile application.
+    </string>
+
+    <string name="Application">Yes. We will share your information with third parties only in the ways that are described in this privacy statement.\n\nWe may disclose User Provided and Automatically Collected Information:
+    </string>
+
+    <string name="Application1">Geolocation will be used by the Uber app for selecting the Pickup and Drop location for requesting a Uber ride.
+    </string>
+
+    <string name="rights">You can stop all collection of information by the Application easily by uninstalling the Application. You may use the standard uninstall processes as may be available as part of your mobile device or via the mobile application marketplace or network. You can also request to opt-out via email, at <a href="mailto:yesselapps@gmail.com">yesselapps@gmail.com</a>.
+    </string>
+
+    <string name="Information">We never store any user information via Arangam Application. Please contact us at <a href="mailto:yesselapps@gmail.com?subject=Arangam - Contact Us">yesselapps@gmail.com</a> and we will respond in a reasonable time.
+    </string>
+
+    <string name="Children">We do not use the Application to knowingly solicit data from or market to children under the age of 13. If a parent or guardian becomes aware that his or her child has provided us with information without their consent, he or she should contact us at <a href="mailto:yesselapps@gmail.com?subject=Arangam - Contact Us">yesselapps@gmail.com</a>. We will delete such information from our files within a reasonable time.
+    </string>
+
+    <string name="Security">We are concerned about safeguarding the confidentiality of your information. We provide physical, electronic, and procedural safeguards to protect information we process and maintain. For example, we limit access to this information to authorized employees and contractors who need to know that information in order to operate, develop or improve our Application. Please be aware that, although we endeavor provide reasonable security for information we process and maintain, no security system can prevent all potential security breaches.
+    </string>
+
+    <string name="Changes">This Privacy Policy may be updated from time to time for any reason. We will notify you of any changes to our Privacy Policy by posting the new Privacy Policy and informing you via email or text message. You are advised to consult this Privacy Policy regularly for any changes, as continued use is deemed approval of all changes. You can check the history of this policy by clicking here.
+    </string>
+
+    <string name="Contactus">If you have any questions regarding privacy while using the Application, or have questions about our practices, please contact us via email at <a href="mailto:yesselapps@gmail.com?subject=Arangam - Contact Us">yesselapps@gmail.com</a>.
+    </string>
+
+</resources>

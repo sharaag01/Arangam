@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_privacy"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.yessel.arangam.PrivacyActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:lineSpacingExtra="2dp"
+                android:text="This privacy policy governs your use of the software application ARANGAM (“Application”) for mobile devices that has been created by Yessel Narasimhan. The Application is an one-stop access for events in Chennai now, and shortly - other cities all over the World. This app gives you access to the schedules of Concerts, Lecture Demonstrations, Dance Performances, Stage dramas and conveniently book a Uber ride with a single tap."
+                android:textColor="#6A6A6A"
+                android:textSize="12sp"
+                android:visibility="visible" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="What information does the Application obtain and how is it used?"
+                android:textColor="#040707"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:visibility="visible" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="User Provided Information"
+                android:textColor="#040707"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:visibility="visible" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="start"
+                android:lineSpacingExtra="2dp"
+                android:text="@string/UserProvidedInformation"
+                android:textColor="#6A6A6A"
+                android:textSize="12sp"
+                android:visibility="visible" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Automatically Collected Information"
+                android:textColor="#040707"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:visibility="visible" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="start"
+                android:lineSpacingExtra="2dp"
+                android:text="@string/AutomaticallyCollectedInformation"
+                android:textColor="#6A6A6A"
+                android:textSize="12sp"
+                android:visibility="visible" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Does the Application collect precise real time location information of the device?"
+                android:textColor="#040707"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:visibility="visible" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="start"
+                android:lineSpacingExtra="2dp"
+                android:text="@string/device"
+                android:textColor="#6A6A6A"
+                android:textSize="12sp"
+                android:visibility="visible" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Do third parties see and/or have access to information obtained by the Application?"
+                android:textColor="#040707"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="start"
+                android:lineSpacingExtra="2dp"
+                android:text="@string/Application"
+                android:textColor="#6A6A6A"
+                android:textSize="12sp" />
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:lineSpacingExtra="2dp"
+                    android:text="\u25CF"
+                    android:textColor="#040707"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:autoLink="web|email"
+                    android:gravity="start"
+                    android:lineSpacingExtra="2dp"
+                    android:text="@string/Application1"
+                    android:textColor="#6A6A6A"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:autoLink="web|email"
+                android:text="What are my opt-out rights?"
+                android:textColor="#040707"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:autoLink="web|email"
+                android:gravity="start"
+                android:lineSpacingExtra="2dp"
+                android:text="@string/rights"
+                android:textColor="#6A6A6A"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:autoLink="web|email"
+                android:text="Data Retention Policy, Managing Your Information"
+                android:textColor="#040707"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:visibility="visible" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:autoLink="web|email"
+                android:gravity="start"
+                android:lineSpacingExtra="2dp"
+                android:text="@string/Information"
+                android:textColor="#6A6A6A"
+                android:textSize="12sp"
+                android:visibility="visible" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:autoLink="web|email"
+                android:text="Children"
+                android:textColor="#040707"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:visibility="visible" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:autoLink="web|email"
+                android:gravity="start"
+                android:lineSpacingExtra="2dp"
+                android:text="@string/Children"
+                android:textColor="#6A6A6A"
+                android:textSize="12sp"
+                android:visibility="visible" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:autoLink="web|email"
+                android:text="Security"
+                android:textColor="#040707"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:visibility="visible" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:autoLink="web|email"
+                android:gravity="start"
+                android:lineSpacingExtra="2dp"
+                android:text="@string/Security"
+                android:textColor="#6A6A6A"
+                android:textSize="12sp"
+                android:visibility="visible" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:autoLink="web|email"
+                android:text="Changes"
+                android:textColor="#040707"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:visibility="visible" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:autoLink="web|email"
+                android:lineSpacingExtra="2dp"
+                android:text="@string/Changes"
+                android:textColor="#6A6A6A"
+                android:textSize="12sp"
+                android:visibility="visible" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:autoLink="web|email"
+                android:gravity="start"
+                android:text="Contact us"
+                android:textColor="#040707"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/em"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:layout_marginTop="10dp"
+                android:autoLink="web|email"
+                android:clickable="true"
+                android:gravity="start"
+                android:lineSpacingExtra="2dp"
+                android:text="@string/Contactus"
+                android:textColor="#6A6A6A"
+                android:textSize="12sp" />
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</RelativeLayout>
